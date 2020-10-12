@@ -90,6 +90,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  outline: none;
 }
 
 button[disabled] {
