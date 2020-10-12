@@ -20,7 +20,7 @@ var getRandom = function(min, max) {
 
 // create function to generate password
 var generatePassword = function() {
-  var length = window.prompt("How long would you like your password?\n Enter a number between " +
+  var length = window.prompt("How long would you like your password to be?\n Enter a number of digits between " +
     range.minLength + "-" + range.maxLength + ".");
   if (length === null)
     return "";
@@ -34,16 +34,16 @@ var generatePassword = function() {
 
   //ask user which character sets they would like to use
   var typedYes = false;
-  var useLower = window.prompt("Do you want to include lowercase characters?\n Type \"YES\" or \"NO\"");
+  var useLower = window.prompt("Do you want to include lowercase characters in your password?\nType \"YES\" or \"NO\"");
   if (useLower === null)
     return "";
-  var useUpper = window.prompt("Do you want to include uppercase characters?\n Type \"YES\" or \"NO\"");
+  var useUpper = window.prompt("Do you want to include uppercase characters?\nType \"YES\" or \"NO\"");
   if (useUpper === null)
     return "";
-  var useNumeric = window.prompt("Do you want to include numbers?\n Type \"YES\" or \"NO\"");
+  var useNumeric = window.prompt("Do you want to include numbers?\nType \"YES\" or \"NO\"");
   if (useNumeric === null)
     return "";
-  var useSpecial = window.prompt("Do you want to include symbols/special characters?\n Type \"YES\" or \"NO\"");
+  var useSpecial = window.prompt("Do you want to include symbols/special characters?\nType \"YES\" or \"NO\"");
   if (useSpecial === null)
     return "";
 
