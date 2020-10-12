@@ -22,6 +22,8 @@ var getRandom = function(min, max) {
 var generatePassword = function() {
   var length = window.prompt("How long would you like your password?\n Enter a number between " +
     range.minLength + "-" + range.maxLength + ".");
+  if (length === null)
+    return "";
 
    // did user enter a valld number between 8-128?
   length = parseInt(length);
@@ -33,9 +35,17 @@ var generatePassword = function() {
   //ask user which character sets they would like to use
   var typedYes = false;
   var useLower = window.prompt("Do you want to include lowercase characters?\n Type \"YES\" or \"NO\"");
+  if (useLower === null)
+    return "";
   var useUpper = window.prompt("Do you want to include uppercase characters?\n Type \"YES\" or \"NO\"");
+  if (useUpper === null)
+    return "";
   var useNumeric = window.prompt("Do you want to include numbers?\n Type \"YES\" or \"NO\"");
+  if (useNumeric === null)
+    return "";
   var useSpecial = window.prompt("Do you want to include symbols/special characters?\n Type \"YES\" or \"NO\"");
+  if (useSpecial === null)
+    return "";
 
   // did user type yes?
   if (useLower === "YES" || useLower === "yes")
