@@ -6,13 +6,13 @@ For this challenge, I was tasked with creating an application that an employee c
 
 This password creation app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript. It also has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
-### User Story
+## User Story
 
 AS AN employee with access to sensitive data  
 I WANT to randomly generate a password that meets certain criteria  
 SO THAT I can create a strong password that provides greater security  
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN I need a new, secure password  
 WHEN I click the button to generate a password  
@@ -30,12 +30,13 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated  
 THEN the password is either displayed in an alert or written to the page  
 
-### Website Link
+## Website Link
 
 https://kara-krzystan.github.io/password-generator/
 
-### Screenshot
+## Screenshot
 
 ![screenshot](https://github.com/kara-krzystan/password-generator/blob/master/assets/images/password_generator_screenshot.png)
 
-### Made with ❤️ & 🍹 by Kara Krzystan
+## Contact
+[Kara Krzystan on GitHub](http://github.com/kara-krzystan)
